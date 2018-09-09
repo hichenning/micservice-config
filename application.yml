@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    action:
+      - dev
+      
+---  
+spring:
+  profiles: dev
+  application:
+    name: micservice-config
+
+---
+spring:
+  profiles: test
+  application:
+    name: micservice-config
+    
+---
+
